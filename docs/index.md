@@ -56,9 +56,11 @@ except (ValueError, TypeError) as error:
 Figure 2a. Script to handle multiple exceptions at the same time.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure2b.png "tooltip text")
+
 Figure 2b. Running a script shown in Figure 2a in PyCharm.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure2c.png "tooltip text")
+
 Figure 2c. Running a script shown in Figure 2a in Python Shell.
 
 You can handle a specific error in each except clause.  The benefit of doing this way is that you can specify a task to do for each exception. The example script in this case is shown in Figure 3a. Running the script in PyCharm and Python Shell are shown in Figure 3b and Figure 3c respectively.
@@ -77,14 +79,17 @@ except TypeError as te:
 Figure 3a. Script to handle a specific exception in each except clause.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure3b.png "tooltip text")
+
 Figure 3b. Running a script shown in Figure 3a in PyCharm.
 
-![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure3c.png "tooltip text") 
+![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure3c.png "tooltip text")
+
 Figure 3c. Running a script shown in Figure 3a in Python Shell.
 
 An else clause followed by an except clause is used to perform a task when there are no exceptions specified prior to an else clause. A finally clause is put at the end of try-except clause. A finally clause is always executed no matter whether or not there is an exception while executing the code. A pseudo code to include try, except, else, and finally clauses is shown below.
  
-![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure4.png "tooltip text") 
+![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure4.png "tooltip text")
+
 Figure 4. Pseudo code for try-except-else-finally clause
 
 If you want to handle any exceptions rather than a specific one, you can use “Exception” class as shown in Figure 5a.  Note that the except clause is performed only when the try clause results in exceptions. If the user enters a number as expected, then the except clause is skipped. The script to include all try-except-else-finally clause is shown in Figure 5a. Running the script in PyCharm and Python Shell without any exceptions are shown in Figure 2b and Figure 2c respectively.
@@ -104,10 +109,12 @@ finally:
 ```
 Figure 5a. Script with try-except-else-finally clause
 
-![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure5b.png "tooltip text") 
+![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure5b.png "tooltip text")
+
 Figure 5b. Running a script shown in Figure 5a in PyCharm.
 
-![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure5c.png "tooltip text")  
+![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure5c.png "tooltip text") 
+
 Figure 5c. Running a script shown in Figure 5a in Python Shell.
 
 You can also “raise” an exception when a certain condition meets, which means that the program forces the exception to occur.  You can alias the name of the exception.  A simple script to raise an exception without any condition is shown in Figure 6a. 
@@ -123,9 +130,11 @@ except ValueError as ne:
 Figure 6a. Script to raise an exception with the user-defined name.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure6b.png "tooltip text")
+
 Figure 6b. Running a script shown in Figure 6a in PyCharm.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure6c.png "tooltip text")
+
 Figure 6c. Running a script shown in Figure 6a in Python Shell.
 
 A further example of handling exceptions is shown in the script written to demonstrate how pickle works in Figure 7.
@@ -173,12 +182,15 @@ fileObj.close()
 Figure 7. Script to show pickle works.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure8.png "tooltip text")
+
 Figure 8. Content of a file written using pickle.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure9.png "tooltip text")
+
 Figure 9. Running a script shown in Figure 7 in PyCharm.
 
 ![alt text](https://github.com/mk688/IntroToProg-Python-Mod07/blob/master/docs/Figure10.png "tooltip text")
+
 Figure 10. Running a script shown in Figure 7 in Python Shell.
 
 ### Helpful websites
