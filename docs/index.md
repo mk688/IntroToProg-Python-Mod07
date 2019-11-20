@@ -195,7 +195,7 @@ Figure 10. Running a script shown in Figure 7 in Python Shell.
 
 ### Helpful websites
 
-A couple of useful websites I found to learn how Python handles exceptions are listed below.
+- A couple of useful websites I found to learn how Python handles exceptions are listed below.
 
 https://www.pythonforbeginners.com/error-handling/exception-handling-in-python
 
@@ -205,7 +205,7 @@ https://docs.python.org/2/library/exceptions.html
 
 This site is helpful to see what kinds of exceptions are available in Python and I can also find the hierarchy of the built-in exceptions.
 
-A couple of useful websites I found to learn how pickling works in Python are listed below.  
+- A couple of useful websites I found to learn how pickling works in Python are listed below.  
 
 https://www.datacamp.com/community/tutorials/pickle-python-tutorial
 
